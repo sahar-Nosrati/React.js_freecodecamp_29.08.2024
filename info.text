@@ -1,0 +1,18 @@
+- ReactDOM -> global variable -> contains -> render method 
+- ReactDOM.render -> render sth similar to HTML 
+- composable code -> separate different parts of a web page to small piece of custom components. These components work to gether to create a webpage  -> advantages ->
+        - more flexible 
+        - more maintainable  
+
+- custom components -> can be used to do create your own React component when the needed functionality isn't available in other components.
+
+- declarative programming language -> what is the final result of a declarative programming language
+- imperative programming language -> what are the step by step of imperative programming language 
+
+- innerHTML , innerText and textContent -> properties of DOM (DOCUMENT OBJECT MODEL) -> read and change and update the HTML elements contents  -> 
+                - InnerHTML -> reads both the HTML markup and the text content of the element -> renders the content according to the tags
+                - innerText ->  rendered text content. When you use innerText to read the content of an element, it returns the      text    as it appears on screen. It ignores HTML tags -> consider css styles, space, etc -> return all things to string
+                - textContent -> textContent property also ignores all HTML tags and returns only the text -> ignore css styles, space etc -> return all things to string  
+
+
+- JSX -> a function -> return an object with properties of related DOM element and react can use this object -> create actual element
